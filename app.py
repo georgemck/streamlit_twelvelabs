@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the API Key from the Dashboard - https://playground.twelvelabs.io/dashboard/api-key
-API_KEY = os.getenv("API_KEY")
+API_KEY = "tlk_241Z16H2R70KP22J4CV3K22801XG" #os.getenv("API_KEY")
 
 # Create the INDEX ID as specified in the README.md and get the INDEX_ID
 INDEX_ID = os.getenv("INDEX_ID")
